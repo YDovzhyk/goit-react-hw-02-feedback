@@ -4,7 +4,7 @@ import s from "./notificationMessage.module.css"
 
 const NotificationMessage = ({title}) => {
     return (
-        <h3 className="s.notificationMessageTitle">{title}</h3>
+        <h3 className={s.notificationMessageTitle}>{title}</h3>
     )
 }
 

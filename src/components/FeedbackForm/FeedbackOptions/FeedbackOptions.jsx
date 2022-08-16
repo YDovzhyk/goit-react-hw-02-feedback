@@ -6,7 +6,6 @@ import s from "./FeedbackOptions.module.css";
 
 const FeedbackOptions = ({options, onLeaveFeedback}) => {
     const props = Object.getOwnPropertyNames(options);
-    console.log(options);
     return (
         <div>
             {props.map((element) => (
