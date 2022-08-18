@@ -21,4 +21,5 @@ SectionTitle.defaultProps = {
 
 SectionTitle.propTypes = {
     title: PropTypes.string.isRequired,
+    children: PropTypes.element.isRequired,
     }
